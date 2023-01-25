@@ -16,6 +16,6 @@ Open as preexisting project in your favorite IDE and choose between gradle or ma
 To execute the tests either run `./gradlew test`, `mvn test` or run the tests from the IDE you are using.
 
 ## Test Libraries Available from the Get-Go
-- [jqwik 1.5.6](https://jqwik.net/release-notes.html#15x)
+- [jqwik 1.7.1](https://jqwik.net/release-notes.html#15x)
 - [AssertJ 3.22.0](https://assertj.github.io/doc/#assertj-core-release-notes)
 # kata-starter-java-kotlin-jqwik
