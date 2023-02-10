@@ -1,5 +1,6 @@
 import net.jqwik.api.*;
 import net.jqwik.api.constraints.IntRange;
+import net.jqwik.engine.properties.arbitraries.exhaustive.ExhaustiveGenerators;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -69,6 +70,7 @@ class FizzBuzzExamples {
         @Provide
         @SuppressWarnings("unused")
         Arbitrary<Integer> notMultiple() {
+
             return Arbitraries.integers().between(1, 100)
                     .filter(i -> i % 3 != 0)
                     .filter(i -> i % 5 != 0);
